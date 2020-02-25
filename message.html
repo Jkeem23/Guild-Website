@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Message Mist</title>
+	<link rel="stylesheet" type="text/css" href="indexstyle.css">
+	<link rel="icon" type="image/png" href="mistsIcon.ico">
+	<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+  <script src="Cookie.js"></script>
+  <script src="message.js"></script>
+</head>
+
+<body id="wrap">
+    <div class="content">
+	<header>
+	  <img src="mist_icon2.png" alt="Free Company Icon">
+	  <em>Welcome to Mist of Hyperion!</em>
+	  <div class="navbar">
+      <a href="index.html">Main</a>
+      <a href="about.html">About Us</a>
+      <a class ="active" href="message.html">Message Us</a>
+      <a href="gallery.html">Our Family</a>
+    </div>
+	</header>
+	<main id="messagemain">
+	  <p id="greeting"></p>
+	  <div id="forms">
+	  <form id="nameID">
+	    <br>
+	    Discord ID or Email:
+	    <br>
+	    <input type="text" placeholder="Example: John#0001" id="discord" minlength="6">
+	    <br>
+			<input type="email" id="emailAddress" placeholder="johndoe123@example.com">
+			<br>
+	    <input type="submit">
+	  </form>
+	  
+	  <form id="activity">
+	    Favorite Activity:
+	    <br>
+	    <select id="selection">
+					<option value="stuff">Extra points for roleplayers.</option>
+					<option value="roleplaying">Roleplaying</option>
+					<option value="dungeons">Dungeons</option>
+					<option value="trials">Trials</option>
+					<option value="raids">Raiding</option>
+					<option value="pvp">PvP</option>
+					<option value="stuff">Other</option>
+			</select>
+			<br>
+			<input type="submit">
+	  </form>
+	  <p id="response"></p>
+	  </div>
+    <p>
+      You can send us your discord ID or email here! We primarily use discord to message each other and have our own FC server where members can
+      congregate outside of the game. If you're interested in joining us, then the first step would be dropping your discord ID or email
+      (don't forget to include the last 4 digits after the # marker!) This way, a senior member can have a way to contact you and answer
+      any questions about Mist. We'd also like to hear what's your favorite activity to do in FFXIV, whether it's raids, pvp, or something
+      else, go ahead and share ^^.
+    </p>
+    <img src="FCmailbox.jpg" alt="Free Company Mailbox">
+	</main>
+    </div>
+	<footer>
+	  <p>&copy; rsmit281, 2018</p>
+	  <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+	  <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+	</footer>
+</body>
+</html>

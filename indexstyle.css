@@ -1,0 +1,226 @@
+div{
+  background-color:#000080;
+  overflow:hidden;
+}
+
+.content {
+    max-width: 1230px;
+    margin:auto;
+}
+
+a{
+  float:left;
+  color:black;
+  text-align:center;
+  padding:14px 16px;
+  font-size:17px;
+}
+
+a:hover{
+  background-color:white;
+  color:#000080;
+}
+
+.active{
+  background-color:black;
+  color:#000080;
+}
+
+header{
+  background-color:#424549;
+}
+
+.navbar {
+    border:1px solid black;
+}
+
+#FClead{
+  background-color:#424549;
+  width:500px;
+  float:left;
+  padding-top: 20px;
+}
+
+#FClead img{
+  height:616px;
+  width:500px;
+  border-radius:8px;
+  border:1px solid black;
+}
+
+#indexmain{
+  background-color:#424549;
+  color:white;
+  width:720px;
+  float:left;
+  padding-left:10px;
+}
+
+#indexmain img{
+  height:417px;
+  width:700px;
+  border-radius:8px;
+  border:1px solid black;
+}
+
+#wrap{
+  background-color:#424549;
+  width: auto;
+  height:auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin:0;
+}
+
+footer{
+  background-color:#424549;
+  clear:both;
+  font-style: italic;
+	font-size: 12px;
+	text-align: center;
+	border-top:1px solid black;
+}
+
+#Guildmembers{
+  background-color:#424549;
+  height:480px;
+  width:600px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#Guildmembers img{
+  width:500px;
+  height:400px;
+  border:1px solid black;
+  border-radius:8px;
+}
+
+#aboutmain{
+  background-color:#424549;
+  color:white;
+  float:left;
+  width:600px;
+  height:500px;
+  padding-left:10px;
+}
+
+#messagemain{
+  background-color:#424549;
+  color:white;
+  width:auto;
+  height:600px;
+  float:left;
+  overflow:auto;
+  padding-left:10px;
+}
+
+#messagemain img{
+  width:700px;
+  height:410px;
+  border:1px solid black;
+  border-radius:8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#galleryMain{
+  background-color:#424549;
+}
+
+select{
+   width: 200px;
+   background-color: white;
+   color: #000080;
+   padding: 15px;
+   margin: 10px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-family:Lucida Console;
+}
+
+input[type=text] {
+   width: 200px;
+   background-color: white;
+   color: #000080;
+   padding: 15px;
+   margin: 10px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-family:Lucida Console;
+}
+
+#forms {
+  background-color: #424549;
+  padding-right: 10px;
+  margin: 0px 0;
+  float:left;
+  height:500px;
+}
+
+#welcome {
+  background-color: #424549;
+}
+
+input[type=submit] {
+   width: 200px;
+   background-color: white;
+   color: #000080;
+   padding: 15px;
+   margin: 10px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-family:Lucida Console;
+}
+
+input[type=email] {
+   width: 200px;
+   background-color: white;
+   color: #000080;
+   padding: 15px;
+   margin: 10px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-family:Lucida Console;
+}
+
+#slide {
+  padding-top:10px;
+  padding-bottom:5px;
+  margin:auto;
+  width:71%;
+  background-color:#424549;
+}
+
+#slide img {
+  border:1px solid black;
+}
+
+
+#slideshowContainer img{
+  width:150px;
+  height:100px;
+  padding:0;
+  margin: auto;
+}
+
+#slideshowContainer {
+  height:100px;
+  width: 766px;
+  margin: auto;
+  border-top:1px solid black;
+  border-left:1px solid black;
+  border-right:1px solid black;
+}
+
+#description {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
